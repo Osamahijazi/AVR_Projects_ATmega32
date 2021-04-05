@@ -18,7 +18,7 @@ This Repository is the FOTA Graduation Project for Mansoura Engineering College(
 
 ## Contents
 - [Problem Statement](#Problem-Statement)
-- [Project Description](#project-description)
+- [How OTA can present a solution](#How -OTA -can -present -a- solution)
 - [Project Overview](#project-overview)
   - [User GUI](#user-gui)
   - [Intermediate Gateway and Server](#intermediate-gateway-and-server)
