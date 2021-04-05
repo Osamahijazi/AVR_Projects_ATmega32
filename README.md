@@ -11,6 +11,7 @@
 
 This Repository is the FOTA Graduation Project for Mansoura Engineering College(2020-2021):
 
+### Team Members
 - **Mohamed Hafez Mohamed**
 - **Abdelrhman Mosad Abdelhady**
 - **Osama Salah Hijazi**
@@ -19,10 +20,10 @@ This Repository is the FOTA Graduation Project for Mansoura Engineering College(
 ## Contents
 - [Problem Statement](#Problem-Statement)
 - [Suggestions solution](#suggestions-solution)
-- [Project Overview](#project-overview)
-  - [User GUI](#user-gui)
-  - [Intermediate Gateway and Server](#intermediate-gateway-and-server)
-  - [Target Hardware Firmware (Bootloader)](#target-hardware-firmware-bootloader)
+- [Obstacles of OTA ](#Obstacles-of-OTA)
+  - [ Server and gateway](#server-and-gateway)
+  - [Bootloader Design](#Bootloader-Design)
+  - [Software Security](#Software-Security)
 - [Project Phases](#project-phases)
 - [Future Enhancements](#future-enhancements)
  
@@ -33,16 +34,41 @@ This Repository is the FOTA Graduation Project for Mansoura Engineering College(
 * It is essential for companies to manage the software efficiently over the lifecycle of the device, to provide improvements in performance and to deliver corrections to faulty software that endanger lives or the environment and which could result in expensive product recalls.
 
 
-## How OTA can present a solution 
+## Suggestions solution 
 
-OTA is the wireless delivery of new software or data to mobile devices,so we can upload the new update to the cloud and devices will be connected to the cloud so it will receive the new update through any wireless communication. 
+OTA is the wireless delivery of new software or data to mobile devices so we can upload the new update to the cloud and devices will be connected to the cloud so it will receive the new update through any wireless communication. 
 
- OTA technology will provide:
+### OTA technology will provide:
+
 1. **Manage firmware updates across a fleet of IOT devices**
 2. **Bug issues can be fixed and product behavior can be enhanced**
 3. **It enables manufacturers to add new features to infrastructure**
 4. **Faster time-to-market**
 5. **Improved safety and compliance**
+
+## Obstacles of OTA
+
+*There are three main chellanges:
+1. **Connection between Server and gateway**
+2. **Boot-loader design**
+3. **Security of the software**
+
+## Connection between Server and gateway
+
+<p align="left">
+  <img width="350" src="Images/Node_MCU.png">
+  <d align="right">
+  <img width="350" src="Images/Fire_base.png">
+</d>
+</p>
+
+####Node MCU as telematics unit:
+*Is an open source development board and firmware based in the widely used ESP8266 -12E Wifi module
+*It is our way to connect to internet and download the update
+*Easy to program and has stable performance
+ 
+
+
 
 
 
