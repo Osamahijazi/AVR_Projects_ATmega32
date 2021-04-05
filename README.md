@@ -46,14 +46,14 @@ OTA is the wireless delivery of new software or data to mobile devices so we can
 4. **Faster time-to-market**
 5. **Improved safety and compliance**
 
-## Obstacles of OTA
+### Obstacles of OTA
 
 *There are three main chellanges:
 1. **Connection between Server and gateway**
 2. **Boot-loader design**
 3. **Security of the software**
 
-## Connection between Server and gateway
+### Connection between Server and gateway
 
 <p align="left">
   <img width="350" src="Images/Node_MCU.png">
@@ -66,9 +66,27 @@ OTA is the wireless delivery of new software or data to mobile devices so we can
  
 * Firebase is the server that will connect the remote user to the ES device that the new code will be uploaded to it from remote PC so the node MCU will download code from it,its quickly and has realtime database and storage.
 
-* More about our latest implementation of Intermediate Gateway and Server [NodeMcu & Firebase] (https://www.csselectronics.com/screen/page/simple-intro-to-can-bus). 
+* More about implementation of Intermediate Gateway and Server [NodeMcu & Firebase] (https://www.csselectronics.com/screen/page/simple-intro-to-can-bus). 
 
+### Bootloader Design
 
+<p align="center">
+  <img width="300" src="Images/Bootloader.png">
+</p>
+
+* A boot-loader is an application whose primary purpose is to allow a systems software to be updated. 
+
+* What makes a bootloader special is that it is sharing flash space with anotherapplication and has the capability to erase and program a newapplication in its place.
+
+* Boot-loader Behavior
+:
+1. **Start the boot-loader**
+2. **Erase the flash**
+3. **Send binary file information to the boot-loader**
+4. **apply Checksum**
+5. **Quit the boot-loader and enter the application**
+
+* More about Bootloader implementation [Bootloader] (https://github.com/Osamahijazi/AVR_Projects_ATmega32/tree/master/Digital_Clock)
 
 
 
