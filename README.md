@@ -15,7 +15,7 @@ This Repository is the FOTA Graduation Project for Mansoura Engineering College 
 
 ## Contents
 - [Problem Statement](#Problem-Statement)
-- [Suggested solution](#Suggested-solution)
+- [Problem solution](#problem-solution)
 - [Obstacles of OTA ](#Obstacles-of-OTA)
   - [ Server and gateway](#server-and-gateway)
   - [Bootloader Design](#Bootloader-Design)
@@ -31,7 +31,7 @@ This Repository is the FOTA Graduation Project for Mansoura Engineering College 
 * It is essential for companies to manage the software efficiently over the lifecycle of the device to provide improvements in performance and to deliver corrections to faulty software that endanger lives or the environment and which could result in expensive product recalls.
 
 
-## Suggested solution 
+## Problem Solution 
 
 OTA is the wireless delivery of new software or data to mobile devices so we can upload the new update to the cloud and devices will be connected to the cloud so it will receive the new update through any wireless communication. 
 
