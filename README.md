@@ -24,7 +24,9 @@ This Repository is the FOTA Graduation Project for Mansoura Engineering College(
   - [ Server and gateway](#server-and-gateway)
   - [Bootloader Design](#Bootloader-Design)
   - [Software Security](#Software-Security)
-- [Software Design](#Software-Design)
+- [Future Enhancements](#future-enhancements)
+  - [ Can bus technology](#Can-bus-technology)
+  - [Atutosar standards](#Atutosar-standards)
  
 ## Problem Statement
 
@@ -39,19 +41,19 @@ OTA is the wireless delivery of new software or data to mobile devices so we can
 
 ### OTA technology will provide:
 
-1. **Manage firmware updates across a fleet of IOT devices**
-2. **Bug issues can be fixed and product behavior can be enhanced**
-3. **It enables manufacturers to add new features to infrastructure**
-4. **Faster time-to-market**
-5. **Improved safety and compliance**
+1. Manage firmware updates across a fleet of IOT devices
+2. Bug issues can be fixed and product behavior can be enhanced
+3. It enables manufacturers to add new features to infrastructure
+4. Faster time-to-market
+5. Improved safety and compliance
 
 ### Obstacles of OTA
 
 **There are three main chellanges:**
 
-1. **Connection between Server and gateway**
-2. **Boot-loader design**
-3. **Security of the software**
+1. Connection between Server and gateway
+2. Boot-loader design
+3. Security of the software
 
 ### Connection between Server and gateway
 
@@ -80,11 +82,11 @@ OTA is the wireless delivery of new software or data to mobile devices so we can
 
 **Boot-loader Behavior:**
 
-1. **Start the boot-loader**
-2. **Erase the flash**
-3. **Send binary file information to the boot-loader**
-4. **apply Checksum**
-5. **Quit the boot-loader and enter the application**
+1. Start the boot-loader
+2. Erase the flash.
+3. Send binary file information to the boot-loader
+4. apply Checksum
+5. Quit the boot-loader and enter the application
 
 * More about Bootloader implementation [Bootloader](https://github.com/Osamahijazi/AVR_Projects_ATmega32/tree/master/Digital_Clock)
 
@@ -96,13 +98,14 @@ OTA is the wireless delivery of new software or data to mobile devices so we can
 
 **The following countermeasures should be applied to secure firmware:**
 
-1. **Protect the authenticity and integrity of firmware to prevent a hacker From running modified code.**
+1. Protect the authenticity and integrity of firmware to prevent a hacker From running modified code.
+   
+2. Encrypt the firmware to prevent a hacker from accessing the data.
 
-2. **Encrypt the firmware to prevent a hacker from accessing the data.**
+## Future Enhancements
 
-
-
-
+1. Upgrade the Communication protocol between NodeMCU and Target Hardware (STM) and Between Gateway and other ECUs on the bus to a higher speed communication protocol (Ex: CAN - LIN - Ethernet).
+2. Integrate our Communication Software with Automotive Software Standards and Layered Architecture.    
 
 
 
