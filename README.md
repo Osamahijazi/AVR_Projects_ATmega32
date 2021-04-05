@@ -1,5 +1,4 @@
-#             FOTA/OTA 
-#      UPDATE FOR REMOTE DEVICES MANAGEMENT
+#OTA UPDATE FOR REMOTE DEVICES MANAGEMENT
 
 <p align="center">
   <b> Firmware Over the air Platform Project </b>
@@ -9,4 +8,10 @@
   <img width="500" src="Images/Head_image.png">
 </p>
 
-This Repository is the FOTA Graduation Project:
+## Project Title
+
+This Repository is the FOTA Graduation Project for Mansoura Engineering College(2020-2021):
+
+- **Mohamed Hafez Mohamed**
+- **Abdelrhman Mosad Abdelhady**
+- **Osama Salah Hijazi**
