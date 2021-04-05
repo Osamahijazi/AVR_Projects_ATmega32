@@ -17,11 +17,11 @@ This Repository is the FOTA Graduation Project for Mansoura Engineering College 
 - [Problem Statement](#Problem-Statement)
 - [Problem solution](#problem-solution)
 - [Obstacles of OTA ](#Obstacles-of-OTA)
-  - [ Server and gateway](#server-and-gateway)
+  - [Connection between Server and gateway](#Connection-between-server-and-gateway)
   - [Bootloader Design](#Bootloader-Design)
   - [Software Security](#Software-Security)
 - [Future Enhancements](#future-enhancements)
-  - [ Can bus technology](#Can-bus-technology)
+  - [Can bus technology](#Can-bus-technology)
   - [Atutosar standards](#Atutosar-standards)
  
 ## Problem Statement
@@ -43,7 +43,7 @@ OTA is the wireless delivery of new software or data to mobile devices so we can
 4. Faster time-to-market
 5. Improved safety and compliance
 
-### Obstacles of OTA
+## Obstacles of OTA
 
 **There are three main chellanges:**
 
@@ -100,8 +100,11 @@ OTA is the wireless delivery of new software or data to mobile devices so we can
 
 ## Future Enhancements
 
+###Can bus technology
+
 1. Upgrade the Communication protocol between NodeMCU and Target Hardware (STM) and Between Gateway and other ECUs on the bus to a higher speed communication protocol (Ex: CAN - LIN - Ethernet).
 
+###Atutosar standards
 2. Integrate our Communication Software with Automotive Software Standards and Layered Architecture.    
 
 
