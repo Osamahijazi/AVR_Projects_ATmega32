@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img width="500" src="Images/Head_image.png">
+  <img width="600" src="Images/Head_image.png">
 </p>
 
 
@@ -93,7 +93,7 @@ OTA is the wireless delivery of new software or data to mobile devices so we can
 ### Software Security
 
 <p align="center">
-  <img width="600" src="Images/Encry&Decry_process.png">
+  <img width="700" src="Images/Encry&Decry_process.png">
 </p>
 
 **The following countermeasures should be applied to secure firmware:**
