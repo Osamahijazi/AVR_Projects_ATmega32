@@ -67,7 +67,7 @@ OTA is the wireless delivery of new software or data to mobile devices so we can
  
 * Firebase is the server that will connect the remote user to the ES device that the new code will be uploaded to it from remote PC so the node MCU will download code from it,its quickly and has realtime database and storage.
 
-* More about implementation of Intermediate Gateway and Server [NodeMcu&Firebase] (https://www.csselectronics.com/screen/page/simple-intro-to-can-bus). 
+* More about implementation of Intermediate Gateway and Server [NodeMcu&Firebase](https://www.csselectronics.com/screen/page/simple-intro-to-can-bus). 
 
 ### Bootloader Design
 
@@ -79,7 +79,7 @@ OTA is the wireless delivery of new software or data to mobile devices so we can
 
 * What makes a bootloader special is that it is sharing flash space with anotherapplication and has the capability to erase and program a newapplication in its place.
 
-** Boot-loader Behavior:**
+**Boot-loader Behavior:**
 
 1. **Start the boot-loader**
 2. **Erase the flash**
