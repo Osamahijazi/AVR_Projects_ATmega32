@@ -100,11 +100,12 @@ OTA is the wireless delivery of new software or data to mobile devices so we can
 
 ## Future Enhancements
 
-###Can bus technology
+### Can bus technology
 
 1. Upgrade the Communication protocol between NodeMCU and Target Hardware (STM) and Between Gateway and other ECUs on the bus to a higher speed communication protocol (Ex: CAN - LIN - Ethernet).
 
-###Atutosar standards
+### Atutosar standards
+
 2. Integrate our Communication Software with Automotive Software Standards and Layered Architecture.    
 
 
