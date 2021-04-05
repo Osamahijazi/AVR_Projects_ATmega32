@@ -17,7 +17,7 @@ This Repository is the FOTA Graduation Project for Mansoura Engineering College(
 
 
 ## Contents
-- [Problem Statement ](#Problem Statement#)
+- [Problem Statement](#Problem Statement)
 - [Project Description](#project-description)
 - [Project Overview](#project-overview)
   - [User GUI](#user-gui)
@@ -30,7 +30,7 @@ This Repository is the FOTA Graduation Project for Mansoura Engineering College(
 
 * Many embedded systems are deployed in places that are difficult or impractical for a human operator to access. This is especially true for Internet of Things (IoT) applications,And with the gross of IOT fields and automotive the process of updating and keeping the software clean of bugs have been become harder and harder. 
 
-*It is essential for companies to manage the software efficiently over the lifecycle of the device, to provide improvements in performance and to deliver corrections to faulty software that endanger lives or the environment and which could result in expensive product recalls.
+* It is essential for companies to manage the software efficiently over the lifecycle of the device, to provide improvements in performance and to deliver corrections to faulty software that endanger lives or the environment and which could result in expensive product recalls.
 
 
 ## How OTA can present a solution 
