@@ -48,7 +48,8 @@ OTA is the wireless delivery of new software or data to mobile devices so we can
 
 ### Obstacles of OTA
 
-*There are three main chellanges:
+* There are three main chellanges:
+
 1. **Connection between Server and gateway**
 2. **Boot-loader design**
 3. **Security of the software**
@@ -66,7 +67,7 @@ OTA is the wireless delivery of new software or data to mobile devices so we can
  
 * Firebase is the server that will connect the remote user to the ES device that the new code will be uploaded to it from remote PC so the node MCU will download code from it,its quickly and has realtime database and storage.
 
-* More about implementation of Intermediate Gateway and Server [NodeMcu & Firebase] (https://www.csselectronics.com/screen/page/simple-intro-to-can-bus). 
+* More about implementation of Intermediate Gateway and Server [NodeMcu&Firebase] (https://www.csselectronics.com/screen/page/simple-intro-to-can-bus). 
 
 ### Bootloader Design
 
@@ -78,15 +79,15 @@ OTA is the wireless delivery of new software or data to mobile devices so we can
 
 * What makes a bootloader special is that it is sharing flash space with anotherapplication and has the capability to erase and program a newapplication in its place.
 
-* Boot-loader Behavior
-:
+** Boot-loader Behavior:**
+
 1. **Start the boot-loader**
 2. **Erase the flash**
 3. **Send binary file information to the boot-loader**
 4. **apply Checksum**
 5. **Quit the boot-loader and enter the application**
 
-* More about Bootloader implementation [Bootloader] (https://github.com/Osamahijazi/AVR_Projects_ATmega32/tree/master/Digital_Clock)
+* More about Bootloader implementation [Bootloader](https://github.com/Osamahijazi/AVR_Projects_ATmega32/tree/master/Digital_Clock)
 
 
 
