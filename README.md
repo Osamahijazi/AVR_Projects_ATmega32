@@ -1,8 +1,4 @@
-# OTA-FOTA
-
-<p align="center">
-  <b> Firmware Over the air Mechanism  </b>
-</p>
+# OTA/FOTA
 
 <p align="center">
   <img width="600" src="Images/Head_image.png">
