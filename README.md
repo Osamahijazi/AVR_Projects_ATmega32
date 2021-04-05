@@ -48,7 +48,7 @@ OTA is the wireless delivery of new software or data to mobile devices so we can
 
 ### Obstacles of OTA
 
-* There are three main chellanges:
+**There are three main chellanges:**
 
 1. **Connection between Server and gateway**
 2. **Boot-loader design**
