@@ -17,7 +17,7 @@ This Repository is the FOTA Graduation Project for Mansoura Engineering College(
 
 
 ## Contents
-- [Problem Statement](#Problem Statement)
+- [Problem Statement](#Problem-Statement)
 - [Project Description](#project-description)
 - [Project Overview](#project-overview)
   - [User GUI](#user-gui)
@@ -38,9 +38,9 @@ This Repository is the FOTA Graduation Project for Mansoura Engineering College(
 OTA is the wireless delivery of new software or data to mobile devices,so we can upload the new update to the cloud and devices will be connected to the cloud so it will receive the new update through any wireless communication. 
 
  OTA technology will provide:
-1. **Manage firmware updates across a fleet of IOT devices **
+1. **Manage firmware updates across a fleet of IOT devices**
 2. **Bug issues can be fixed and product behavior can be enhanced**
-3. **It enables manufacturers to add new features to infrastructure **
+3. **It enables manufacturers to add new features to infrastructure**
 4. **Faster time-to-market**
 5. **Improved safety and compliance**
 
