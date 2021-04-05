@@ -5,7 +5,7 @@
 </p>
 
 
-This Repository is the FOTA Graduation Project for Mansoura Engineering College(2020-2021):
+This Repository is the FOTA Graduation Project for Mansoura Engineering College (2020-2021):
 
 ### Team Members
 - **Mohamed Hafez Mohamed**
@@ -15,7 +15,7 @@ This Repository is the FOTA Graduation Project for Mansoura Engineering College(
 
 ## Contents
 - [Problem Statement](#Problem-Statement)
-- [Suggested solutions](#Suggested-solutions)
+- [Suggested solution](#Suggested-solution)
 - [Obstacles of OTA ](#Obstacles-of-OTA)
   - [ Server and gateway](#server-and-gateway)
   - [Bootloader Design](#Bootloader-Design)
@@ -26,9 +26,9 @@ This Repository is the FOTA Graduation Project for Mansoura Engineering College(
  
 ## Problem Statement
 
-* Many embedded systems are deployed in places that are difficult or impractical for a human operator to access. This is especially true for Internet of Things (IoT) applications,And with the gross of IOT fields and automotive the process of updating and keeping the software clean of bugs have been become harder and harder. 
+* Many embedded systems are deployed in places that are difficult or impractical for a human operator to access.This is especially true for Internet of Things (IoT) applications,with the gross of IOT fields and automotive the process of updating and keeping the software clean of bugs have been become harder and harder. 
 
-* It is essential for companies to manage the software efficiently over the lifecycle of the device, to provide improvements in performance and to deliver corrections to faulty software that endanger lives or the environment and which could result in expensive product recalls.
+* It is essential for companies to manage the software efficiently over the lifecycle of the device to provide improvements in performance and to deliver corrections to faulty software that endanger lives or the environment and which could result in expensive product recalls.
 
 
 ## Suggested solution 
@@ -101,6 +101,7 @@ OTA is the wireless delivery of new software or data to mobile devices so we can
 ## Future Enhancements
 
 1. Upgrade the Communication protocol between NodeMCU and Target Hardware (STM) and Between Gateway and other ECUs on the bus to a higher speed communication protocol (Ex: CAN - LIN - Ethernet).
+
 2. Integrate our Communication Software with Automotive Software Standards and Layered Architecture.    
 
 
