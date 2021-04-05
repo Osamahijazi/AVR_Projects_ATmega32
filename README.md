@@ -68,7 +68,7 @@ OTA is the wireless delivery of new software or data to mobile devices so we can
  
 * Firebase is the server that will connect the remote user to the ES device that the new code will be uploaded to it from remote PC so the node MCU will download code from it,its quickly and has realtime database and storage.
 
-* More about implementation of Intermediate Gateway and Server [NodeMcu&Firebase](https://www.csselectronics.com/screen/page/simple-intro-to-can-bus). 
+* More about implementation of Intermediate Gateway and Server [NodeMcu&Firebase](https://github.com/mohamed-hafez-mohamed/Graduation_Project_2021/tree/master/02-%20Software/Gateway/05-%20APP/NodeMcu). 
 
 ### Bootloader Design
 
@@ -88,7 +88,7 @@ OTA is the wireless delivery of new software or data to mobile devices so we can
 4. apply Checksum
 5. Quit the boot-loader and enter the application
 
-* More about Bootloader implementation [Bootloader](https://github.com/Osamahijazi/AVR_Projects_ATmega32/tree/master/Digital_Clock)
+* More about Bootloader implementation [Bootloader](https://github.com/mohamed-hafez-mohamed/Graduation_Project_2021/tree/master/02-%20Software/Bootloader)
 
 ### Software Security
 
