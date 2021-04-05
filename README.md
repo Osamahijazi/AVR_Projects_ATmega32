@@ -1,7 +1,7 @@
-#OTA UPDATE FOR REMOTE DEVICES MANAGEMENT
+# OTA-FOTA
 
 <p align="center">
-  <b> Firmware Over the air Platform Project </b>
+  <b> Firmware Over the air Mechanism  </b>
 </p>
 
 <p align="center">
