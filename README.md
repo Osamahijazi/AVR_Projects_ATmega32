@@ -62,13 +62,11 @@ OTA is the wireless delivery of new software or data to mobile devices so we can
 </d>
 </p>
 
-####Node MCU as telematics unit:
-*Is an open source development board and firmware based in the widely used ESP8266 -12E Wifi module
-*It is our way to connect to internet and download the update
-*Easy to program and has stable performance
+*Node MCU(intermediate Gateway ECU) is an open source development board and firmware based in the widely used ESP8266 -12E Wifi module,we use it to connect to internet and download the update.
  
+*Firebase is the server that will connect the remote user to the ES device that the new code will be uploaded to it from remote PC so the node MCU will download code from it,its quickly and has realtime database and storage.
 
-
+*More about our latest implementation of Intermediate Gateway and Server [NodeMcu & Firebase] (حط هنا لينك الكود بتاعالفايرباس). 
 
 
 
