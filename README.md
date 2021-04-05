@@ -24,8 +24,7 @@ This Repository is the FOTA Graduation Project for Mansoura Engineering College(
   - [ Server and gateway](#server-and-gateway)
   - [Bootloader Design](#Bootloader-Design)
   - [Software Security](#Software-Security)
-- [Project Phases](#project-phases)
-- [Future Enhancements](#future-enhancements)
+- [Software Design](#Software-Design)
  
 ## Problem Statement
 
@@ -72,7 +71,7 @@ OTA is the wireless delivery of new software or data to mobile devices so we can
 ### Bootloader Design
 
 <p align="center">
-  <img width="300" src="Images/Bootloader.png">
+  <img width="600" src="Images/Bootloader.png">
 </p>
 
 * A boot-loader is an application whose primary purpose is to allow a systems software to be updated. 
@@ -89,6 +88,17 @@ OTA is the wireless delivery of new software or data to mobile devices so we can
 
 * More about Bootloader implementation [Bootloader](https://github.com/Osamahijazi/AVR_Projects_ATmega32/tree/master/Digital_Clock)
 
+### Software Security
+
+<p align="center">
+  <img width="600" src="Images/Encry&Decry_process.png">
+</p>
+
+**The following countermeasures should be applied to secure firmware:**
+
+1. **Protect the authenticity and integrity of firmware to prevent a hacker From running modified code.**
+
+2. **Encrypt the firmware to prevent a hacker from accessing the data.**
 
 
 
